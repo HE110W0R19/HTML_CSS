@@ -1,0 +1,38 @@
+body{
+    width: 50%;
+    margin-left: 23%;
+}
+
+.window{
+    padding: 20px;
+    background-color: rgba(224, 224, 224, 0.211);
+}
+
+.TEXT{
+    font-family: 'Comic Sans MS';
+}
+
+.CodeFrag{
+    color: rgb(175, 54, 54);
+    background-color: rgba(199, 199, 199, 0.416);
+}
+
+.nt{
+    color: rgb(175, 54, 54);;
+}
+
+.CODE{
+    padding-top: 5px;
+    background-color: rgba(199, 199, 199, 0.416);
+}
+
+.TAGS{
+    display: flex;
+}
+
+.TAG{
+    padding: 2px;
+    margin-left: 5px;
+    color:darkcyan;
+    background-color: rgba(199, 199, 199, 0.416);
+}

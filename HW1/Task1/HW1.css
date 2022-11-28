@@ -1,0 +1,15 @@
+h1{
+    color: rgb(0, 0, 165);
+    font-family:'Comic Sans MS', cursive;
+}
+
+h2{
+    color: rgba(55, 55, 120, 0.500);
+    font-family:'Comic Sans MS', cursive;
+}
+
+p{
+    color: rgb(97, 0, 165);
+    font-size: 14px;
+    font-family:'Comic Sans MS', cursive;
+}
