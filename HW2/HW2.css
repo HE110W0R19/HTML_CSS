@@ -1,0 +1,109 @@
+body{
+    background-color:beige;
+}
+
+.blank{
+    margin: auto;
+    width:min-content;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgba(137, 43, 226, 0.416);
+}
+
+.ContactInfo{
+    display: flex;
+    margin: auto;
+    height: 190px;
+    width: 600px;
+    background-color: burlywood;
+    border: 2px solid black !important;
+    border-radius: 10px;
+}
+
+#info{
+    height: 200px;
+    width: 453px;
+    margin-left: 10px;
+}
+
+.InfoStyle{
+    margin-left: 15px; 
+    font-size: x-small;
+}
+
+#photo{
+    margin-top: 45px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    border: 3px solid black !important;
+    background-image: url("https://media.tenor.com/6B2HL5osi7YAAAAM/the-rock-sus-meme-dwayne-johnson.gif");
+    background-size: contain;
+}
+
+.OngoingWork{
+    margin: auto;
+    margin-top: 10px;
+    height: 480px;
+    width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+    border: 2px solid black !important;
+    border-radius: 10px;
+}
+
+#OngoingWorkInfo{
+    margin-left: 10px;
+}
+
+#OngoingWorkTable{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+    border: 1px;
+    border-spacing : 10px; border-color : black; border-style: solid;
+    border-collapse: collapse; 
+    line-height: 1.1;
+    background:  radial-gradient(farthest-corner at 50% 50%, white, #eddbae);
+
+}
+
+th {
+    padding: 10px; 
+    border: 1px solid #000000;
+}
+
+td {
+    font-size: 0.8em;
+    width: 440px;
+    padding: 5px 7px;
+    border: 1px solid #000000;
+}
+
+#left {
+    height: 150px;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.LatestWork{
+    margin: auto;
+    margin-top: 10px;
+    height: 315px;
+    width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+    border: 2px solid black !important;
+    border-radius: 10px;
+}
+
+.Education{
+    margin: auto;
+    margin-top: 10px;
+    height: 270px;
+    width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+    border: 2px solid black !important;
+    border-radius: 10px;
+}
