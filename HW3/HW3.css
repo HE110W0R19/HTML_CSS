@@ -1,0 +1,171 @@
+:root {
+  --background: #B5DEE6;
+  --accent: #DB83E8;
+  --secondary: #892C96;
+  --borders: #000000;
+  --NavText: #FFED86;
+}
+
+main{
+border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1200px;
+margin-top: 10px;
+background-image: url("https://media.istockphoto.com/id/1063234310/vector/binary-code-bright-blue-background-programming-code-dark-net-concept-digital-web-technology.jpg?s=612x612&w=0&k=20&c=c75dM6xNBQ5qxi7t0NhVEfIB_a7a1a9SOufodNSe4f4=");
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--background);
+}
+
+.Categories{
+  padding: 100px;
+  border-radius: 10px;
+}
+
+#UserName{
+width:max-content;
+text-align:left;
+margin-top: 20px;
+margin-left: 10px;
+}
+
+.HeaderLogoDiv{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 20px;
+  height: max-content;
+  width: max-content;
+}
+
+.NavHeaderBody{
+  margin: 0 auto;
+  max-width: 1200px;
+  row-gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.HeaderNavButtons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 10px;
+  justify-content: space-evenly;
+}
+
+.NavButton{
+  display: block;
+  margin-top: 20px;
+  color: var(--NavText);
+  border: 1px solid var(--borders);
+  background-color: var(--secondary);
+  padding: 2px 5px;
+  border-radius: 5px;
+  height: max-content;
+  text-decoration: none;
+  width: max-content;
+}
+
+.NavButton:hover {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: var(--accent);
+  color: #000000;
+  scale: 1.1;
+}
+
+.Announcements{
+  background-color: var(--accent);
+  border: 3px solid var(--NavText);
+  border-radius: 25px;
+  padding-bottom: 25px;
+}
+
+.AnnouncImage{
+  margin: 5px;
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  border: 2px solid var(--borders);
+}
+
+.AnnouncText{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  display:block;
+}
+.AnnouncCost{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 25px;
+display: block;
+}
+.AnnouncRating{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 15px;
+display: block;
+}
+.Star{
+color: gold;
+}
+
+.AllAnnouncements{
+  display: grid;
+  row-gap: 30px;
+  column-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.GoTopButton{
+margin: 0 auto;
+display: block;
+background-color: wheat;
+color: black;
+text-decoration: none;
+height: 40px;
+width: 100px;
+border-radius: 10px;
+text-align: center;
+}
+
+.GoTopButton:hover{
+display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: #000000;
+  scale: 1.1;
+}
+
+.RightHoodDiv{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+row-gap: 5px;
+column-gap: 10px;
+margin-top: 15px;
+}
+
+.RightHood{
+height: 20px;
+width: 50px;
+padding: 5px;
+border: 1px solid black;
+border-radius: 10px;
+text-decoration: none;
+color: black;
+}
+
+.RightHood:hover{
+display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  scale: 1.1;
+}

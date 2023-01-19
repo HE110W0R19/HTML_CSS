@@ -1,0 +1,308 @@
+:root {
+    --background: #e39a5b97;
+    --mainbackground: #fbeebf7b;
+    --hoodbackground: #f7c294;
+    --borders: #000000;
+  }
+  
+  main{
+  border-radius: 10px;
+  background-color: var(--mainbackground);
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+  margin-top: 10px;
+  padding-bottom: 70px;
+  }
+  
+  header{
+    z-index: 2;
+  }
+
+  body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--background);
+  }
+  
+  .Categories{
+    padding: 100px;
+    border-radius: 10px;
+  }
+  
+  .GoTopButtonPhone{
+    display: none;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 100%;
+    background-color:white;
+  }
+
+  #UserName{
+  width:max-content;
+  text-align:left;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-left: 10px;
+  }
+  
+  #UserAva{
+    padding: 4px;
+    background-color: rgba(46, 123, 41, 0.289);
+    border: 2px solid black;
+    border-radius: 100%;
+  }
+
+  .HeaderLogoDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 20px;
+    height: max-content;
+    width: max-content;
+  }
+  
+  .DefaultHeader{
+    background-color: var(--hoodbackground);
+    position: sticky;
+    top:0px;
+    border-bottom: 2px solid black;
+  }
+
+  .SearchDiv{
+    display: flex;
+    width: 450px;
+    height: 40px;
+  }
+
+  .SearchInput{
+    margin-top: 15px;
+    height: 25px;
+    width: 450px;
+  }
+
+  #SearchImage{
+    position: relative;
+    padding: 3px;
+    height: 20px;
+    width: 20px;
+    left: 420px;
+    top: 17px;
+  }
+  
+  #SearchImage:hover{
+    border-radius: 100%;
+    background-color: rgba(0, 128, 0, 0.371);
+  }
+
+  .NavHeaderBody{
+    margin: 0 auto;
+    padding-bottom: 10px;
+    max-width: 1200px;
+    row-gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .Announcements{
+    border: 2px solid rgba(0, 0, 0, 0.064);
+    border-radius: 5px;
+    padding-bottom: 25px;
+  }
+  
+  .AnnouncImage{
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid var(--borders);
+  }
+  
+  .Discount{
+    border: 1px solid black;
+    border-radius: 7px;
+    height: 25px;
+    width: 50px;
+    position: relative;
+    top: calc(-1*255px);
+    left: 10px;
+    background-color: rgba(255, 0, 0, 0.608);
+    color: gold;
+    z-index: 1;
+  }
+  
+  .NoDiscount{
+    height: 25px;
+    width: 50px;
+  }
+
+  .AnnouncText{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display:block;
+  }
+  .AnnouncCost{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  display: block;
+  }
+  .AnnouncRating{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+  display: block;
+  }
+  .Star{
+  color: #4808D1;
+  }
+  
+  .BuyButton
+  {
+    margin-left: 55px;
+    margin-top: 5px;
+    background-color: rgba(0, 128, 0, 0.497);
+    height: 25px;
+    width: 150px;
+    border-radius: 10px;
+    color: #333333;
+  }
+
+  .AllAnnouncements{
+    display: grid;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    justify-content: space-around;
+    justify-items: center;
+  }
+  
+  .GoTopButton{
+  margin: 0 auto;
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: wheat;
+  color: black;
+  text-decoration: none;
+  height: 40px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  }
+  
+  .GoTopButton:hover{
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #000000;
+    scale: 1.1;
+  }
+  
+  .Hood{
+    padding-left: 25px;
+  }
+
+  .RightHoodDiv{
+    width: max-content;
+    display: flex;
+    padding-top: 20px
+  }
+  
+  .RightHood{
+  height: 20px;
+  width: 50px;
+  padding: 10px;
+  font-family:Arial, Helvetica, sans-serif ;
+  text-decoration: none;
+  color: black;
+  }
+
+  .Profile{
+    display: flex;
+  }
+
+  .Basket{
+    display: flex;
+  }
+
+  .RightHoodImage{
+    height: 30px;
+    width: 30px;
+  }
+
+  .RightHood:hover{
+    color: green;
+  }
+
+    @media screen and (max-width: 900px) 
+    {
+        #UserName
+        {
+            display: none;
+        }
+
+        .SearchDiv{
+          width: 350px;
+        }
+
+        .SearchInput
+        {
+          width: 350px;
+        }
+
+        #SearchImage{
+          left: 320px;
+        }
+    }
+
+    @media screen and (max-width: 700px) 
+    {
+        .Hood
+        {
+          width: 100%;
+          border-top: 2px solid black;
+          background-color: var(--hoodbackground);
+          position: fixed;
+          left: 0px;
+          bottom: 0px;
+        }
+
+        .HeaderLogoDiv{
+          margin: 0 auto;
+          margin-top: 10px;
+        }
+
+        .SearchDiv{
+          margin: 0 auto;
+        }
+
+        .NavHeaderBody
+        {
+          display: block;
+        }
+
+        .RightHoodDiv
+        {
+          margin: 0 auto;
+        }
+        
+        .Basket{
+          margin-right: 55px;
+        }
+
+        .Profile{
+          margin-right: 55px;
+        }
+
+        .GoTopButtonPhone{
+          display:inline;
+          position: fixed;
+          bottom: 70px;
+          right: 5px;
+        }
+        .GoTopButton{
+          display: none;
+        }
+    }
